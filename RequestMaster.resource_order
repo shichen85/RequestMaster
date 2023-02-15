@@ -35,6 +35,7 @@
     {"name":"DownloadMaster","order":8,"path":"extensions/DownloadMaster/DownloadMaster.yy",},
     {"name":"MultipartData","order":2,"path":"scripts/MultipartData/MultipartData.yy",},
     {"name":"__obj_request_master_daemon__","order":6,"path":"objects/__obj_request_master_daemon__/__obj_request_master_daemon__.yy",},
+    {"name":"__REQM_CONFIGS__","order":11,"path":"scripts/__REQM_CONFIGS__/__REQM_CONFIGS__.yy",},
     {"name":"rm_request_master_test","order":5,"path":"rooms/rm_request_master_test/rm_request_master_test.yy",},
   ],
 }

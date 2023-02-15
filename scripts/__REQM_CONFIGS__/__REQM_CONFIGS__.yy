@@ -6,6 +6,6 @@
   "isDnD": false,
   "parent": {
     "name": "RequestMaster",
-    "path": "folders/Libraries_config/RequestMaster.yy",
+    "path": "folders/Libraries/RequestMaster.yy",
   },
 }
