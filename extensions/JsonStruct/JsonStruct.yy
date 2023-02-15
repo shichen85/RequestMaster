@@ -1,114 +1,116 @@
 {
-  "optionsFile": "options.json",
-  "options": [],
-  "exportToGame": true,
-  "supportedTargets": -1,
-  "extensionVersion": "1.1.0",
-  "packageId": "",
-  "productId": "",
-  "author": "",
-  "date": "2020-04-23T20:46:34.661214-04:00",
-  "license": "",
-  "description": "",
-  "helpfile": "",
-  "iosProps": false,
-  "tvosProps": false,
+  "resourceType": "GMExtension",
+  "resourceVersion": "1.2",
+  "name": "JsonStruct",
+  "androidactivityinject": "",
+  "androidclassname": "",
+  "androidcodeinjection": "",
+  "androidinject": "",
+  "androidmanifestinject": "",
+  "androidPermissions": [],
   "androidProps": false,
-  "installdir": "",
+  "androidsourcedir": "",
+  "author": "",
+  "classname": "",
+  "copyToTargets": -1,
+  "date": "2020-04-23T19:46:34.661214-05:00",
+  "description": "",
+  "exportToGame": true,
+  "extensionVersion": "1.1.0",
   "files": [
-    {"filename":"JsonStruct.gml","origname":"","init":"","final":"","kind":2,"uncompress":false,"functions":[
-        {"externalName":"__jsons_decode_array__","kind":2,"help":"__jsons_decode_array__(@seekrec, safe)","hidden":true,"returnType":2,"argCount":0,"args":[
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","constants":[],"copyToTargets":-1,"filename":"JsonStruct.gml","final":"","functions":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"__jsons_decode_array__","argCount":0,"args":[
             2,
             2,
-          ],"resourceVersion":"1.0","name":"__jsons_decode_array__","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"__jsons_decode_bool__","kind":2,"help":"__jsons_decode_bool__(@seekrec)","hidden":true,"returnType":2,"argCount":0,"args":[
+          ],"documentation":"","externalName":"__jsons_decode_array__","help":"__jsons_decode_array__(@seekrec, safe)","hidden":true,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"__jsons_decode_bool__","argCount":0,"args":[
             2,
-          ],"resourceVersion":"1.0","name":"__jsons_decode_bool__","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"__jsons_decode_real__","kind":2,"help":"__jsons_decode_real__(@seekrec)","hidden":true,"returnType":2,"argCount":0,"args":[
+          ],"documentation":"","externalName":"__jsons_decode_bool__","help":"__jsons_decode_bool__(@seekrec)","hidden":true,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"__jsons_decode_real__","argCount":0,"args":[
             2,
-          ],"resourceVersion":"1.0","name":"__jsons_decode_real__","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"__jsons_decode_seek__","kind":2,"help":"__jsons_decode_seek__(@seekrec)","hidden":true,"returnType":2,"argCount":0,"args":[
+          ],"documentation":"","externalName":"__jsons_decode_real__","help":"__jsons_decode_real__(@seekrec)","hidden":true,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"__jsons_decode_seek__","argCount":0,"args":[
             2,
-          ],"resourceVersion":"1.0","name":"__jsons_decode_seek__","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"__jsons_decode_string__","kind":2,"help":"__jsons_decode_string__(@seekrec)","hidden":true,"returnType":1,"argCount":0,"args":[
+          ],"documentation":"","externalName":"__jsons_decode_seek__","help":"__jsons_decode_seek__(@seekrec)","hidden":true,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"__jsons_decode_string__","argCount":0,"args":[
             2,
-          ],"resourceVersion":"1.0","name":"__jsons_decode_string__","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"__jsons_decode_struct__","kind":2,"help":"__jsons_decode_struct__(@seekrec, safe)","hidden":true,"returnType":2,"argCount":0,"args":[
-            2,
-            2,
-          ],"resourceVersion":"1.0","name":"__jsons_decode_struct__","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"__jsons_decode_subcontent__","kind":2,"help":"__jsons_decode_subcontent__(@seekrec, safe)","hidden":true,"returnType":2,"argCount":0,"args":[
+          ],"documentation":"","externalName":"__jsons_decode_string__","help":"__jsons_decode_string__(@seekrec)","hidden":true,"kind":2,"returnType":1,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"__jsons_decode_struct__","argCount":0,"args":[
             2,
             2,
-          ],"resourceVersion":"1.0","name":"__jsons_decode_subcontent__","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"__jsons_decode_undefined__","kind":2,"help":"__jsons_decode_undefined__(@seekrec)","hidden":true,"returnType":2,"argCount":0,"args":[
+          ],"documentation":"","externalName":"__jsons_decode_struct__","help":"__jsons_decode_struct__(@seekrec, safe)","hidden":true,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"__jsons_decode_subcontent__","argCount":0,"args":[
             2,
-          ],"resourceVersion":"1.0","name":"__jsons_decode_undefined__","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"__jsons_decrypt__","kind":2,"help":"__jsons_decrypt__(str, key)","hidden":true,"returnType":1,"argCount":0,"args":[
+            2,
+          ],"documentation":"","externalName":"__jsons_decode_subcontent__","help":"__jsons_decode_subcontent__(@seekrec, safe)","hidden":true,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"__jsons_decode_undefined__","argCount":0,"args":[
+            2,
+          ],"documentation":"","externalName":"__jsons_decode_undefined__","help":"__jsons_decode_undefined__(@seekrec)","hidden":true,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"__jsons_decrypt__","argCount":0,"args":[
             1,
             1,
-          ],"resourceVersion":"1.0","name":"__jsons_decrypt__","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"__jsons_encrypt__","kind":2,"help":"__jsons_encrypt__(str, key)","hidden":true,"returnType":1,"argCount":0,"args":[
+          ],"documentation":"","externalName":"__jsons_decrypt__","help":"__jsons_decrypt__(str, key)","hidden":true,"kind":2,"returnType":1,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"__jsons_encrypt__","argCount":0,"args":[
             1,
             1,
-          ],"resourceVersion":"1.0","name":"__jsons_encrypt__","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"__jsons_hex_to_decimal__","kind":2,"help":"__jsons_hex_to_decimal__(hexstr)","hidden":true,"returnType":2,"argCount":0,"args":[
+          ],"documentation":"","externalName":"__jsons_encrypt__","help":"__jsons_encrypt__(str, key)","hidden":true,"kind":2,"returnType":1,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"__jsons_hex_to_decimal__","argCount":0,"args":[
             1,
-          ],"resourceVersion":"1.0","name":"__jsons_hex_to_decimal__","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"__jsons_is_whitespace__","kind":2,"help":"__jsons_is_whitespace__(char)","hidden":true,"returnType":2,"argCount":0,"args":[
+          ],"documentation":"","externalName":"__jsons_hex_to_decimal__","help":"__jsons_hex_to_decimal__(hexstr)","hidden":true,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"__jsons_is_whitespace__","argCount":0,"args":[
             1,
-          ],"resourceVersion":"1.0","name":"__jsons_is_whitespace__","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"__jsons_rc4__","kind":2,"help":"__jsons_rc4__(@buffer, key, offset, length)","hidden":true,"returnType":2,"argCount":0,"args":[
-            2,
-            1,
-            2,
-            2,
-          ],"resourceVersion":"1.0","name":"__jsons_rc4__","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"jsons_clone","kind":2,"help":"jsons_clone(val)","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-          ],"resourceVersion":"1.0","name":"jsons_clone","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"jsons_decode","kind":2,"help":"jsons_decode(jsonstr)","hidden":false,"returnType":2,"argCount":0,"args":[
-            1,
-          ],"resourceVersion":"1.0","name":"jsons_decode","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"jsons_decrypt","kind":2,"help":"jsons_decrypt(jsonencstr, [deckey], [decfunc])","hidden":false,"returnType":2,"argCount":-1,"args":[],"resourceVersion":"1.0","name":"jsons_decrypt","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"jsons_encode","kind":2,"help":"jsons_encode(val)","hidden":false,"returnType":1,"argCount":0,"args":[
-            2,
-          ],"resourceVersion":"1.0","name":"jsons_encode","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"jsons_encrypt","kind":2,"help":"jsons_encrypt(thing, [enckey], [encfunc])","hidden":false,"returnType":1,"argCount":-1,"args":[],"resourceVersion":"1.0","name":"jsons_encrypt","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"jsons_load","kind":2,"help":"jsons_load(fname)","hidden":false,"returnType":2,"argCount":0,"args":[
-            1,
-          ],"resourceVersion":"1.0","name":"jsons_load","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"jsons_load_encrypted","kind":2,"help":"jsons_load_encrypted(fname, [deckey], [decfunc])","hidden":false,"returnType":2,"argCount":-1,"args":[],"resourceVersion":"1.0","name":"jsons_load_encrypted","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"jsons_real_encoder_detailed","kind":2,"help":"jsons_real_encoder_detailed(val)","hidden":false,"returnType":1,"argCount":0,"args":[
-            2,
-          ],"resourceVersion":"1.0","name":"jsons_real_encoder_detailed","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"jsons_real_encoder_string_format","kind":2,"help":"jsons_real_encoder_string_format(val)","hidden":false,"returnType":1,"argCount":0,"args":[
-            2,
-          ],"resourceVersion":"1.0","name":"jsons_real_encoder_string_format","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"jsons_save","kind":2,"help":"jsons_save(fname, thing)","hidden":false,"returnType":2,"argCount":0,"args":[
-            1,
-            2,
-          ],"resourceVersion":"1.0","name":"jsons_save","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"jsons_save_encrypted","kind":2,"help":"jsons_save_encrypted(fname, thing, [enckey], [encfunc])","hidden":false,"returnType":2,"argCount":-1,"args":[],"resourceVersion":"1.0","name":"jsons_save_encrypted","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"jsons_decode_safe","kind":2,"help":"jsons_decode_safe(jsonstr)","hidden":false,"returnType":2,"argCount":0,"args":[
-            1,
-          ],"resourceVersion":"1.0","name":"jsons_decode_safe","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"jsons_decrypt_safe","kind":2,"help":"jsons_decrypt_safe(jsonencstr, [deckey], [decfunc])","hidden":false,"returnType":2,"argCount":-1,"args":[],"resourceVersion":"1.0","name":"jsons_decrypt_safe","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"jsons_load_safe","kind":2,"help":"jsons_load_safe(fname)","hidden":false,"returnType":2,"argCount":0,"args":[
-            1,
-          ],"resourceVersion":"1.0","name":"jsons_load_safe","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"jsons_load_encrypted_safe","kind":2,"help":"jsons_load_encrypted_safe(fname, [deckey], [decfunc])","hidden":false,"returnType":2,"argCount":-1,"args":[],"resourceVersion":"1.0","name":"jsons_load_encrypted_safe","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"__jsons_encode_formatted__","kind":2,"help":"__jsons_encode_formatted__(val, indent, currentDepth, maxDepth, colon, comma)","hidden":false,"returnType":1,"argCount":0,"args":[
+          ],"documentation":"","externalName":"__jsons_is_whitespace__","help":"__jsons_is_whitespace__(char)","hidden":true,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"__jsons_rc4__","argCount":0,"args":[
             2,
             1,
             2,
             2,
+          ],"documentation":"","externalName":"__jsons_rc4__","help":"__jsons_rc4__(@buffer, key, offset, length)","hidden":true,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"jsons_clone","argCount":0,"args":[
+            2,
+          ],"documentation":"","externalName":"jsons_clone","help":"jsons_clone(val)","hidden":false,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"jsons_decode","argCount":0,"args":[
+            1,
+          ],"documentation":"","externalName":"jsons_decode","help":"jsons_decode(jsonstr)","hidden":false,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"jsons_decrypt","argCount":-1,"args":[],"documentation":"","externalName":"jsons_decrypt","help":"jsons_decrypt(jsonencstr, [deckey], [decfunc])","hidden":false,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"jsons_encode","argCount":0,"args":[
+            2,
+          ],"documentation":"","externalName":"jsons_encode","help":"jsons_encode(val)","hidden":false,"kind":2,"returnType":1,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"jsons_encrypt","argCount":-1,"args":[],"documentation":"","externalName":"jsons_encrypt","help":"jsons_encrypt(thing, [enckey], [encfunc])","hidden":false,"kind":2,"returnType":1,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"jsons_load","argCount":0,"args":[
+            1,
+          ],"documentation":"","externalName":"jsons_load","help":"jsons_load(fname)","hidden":false,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"jsons_load_encrypted","argCount":-1,"args":[],"documentation":"","externalName":"jsons_load_encrypted","help":"jsons_load_encrypted(fname, [deckey], [decfunc])","hidden":false,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"jsons_real_encoder_detailed","argCount":0,"args":[
+            2,
+          ],"documentation":"","externalName":"jsons_real_encoder_detailed","help":"jsons_real_encoder_detailed(val)","hidden":false,"kind":2,"returnType":1,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"jsons_real_encoder_string_format","argCount":0,"args":[
+            2,
+          ],"documentation":"","externalName":"jsons_real_encoder_string_format","help":"jsons_real_encoder_string_format(val)","hidden":false,"kind":2,"returnType":1,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"jsons_save","argCount":0,"args":[
+            1,
+            2,
+          ],"documentation":"","externalName":"jsons_save","help":"jsons_save(fname, thing)","hidden":false,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"jsons_save_encrypted","argCount":-1,"args":[],"documentation":"","externalName":"jsons_save_encrypted","help":"jsons_save_encrypted(fname, thing, [enckey], [encfunc])","hidden":false,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"jsons_decode_safe","argCount":0,"args":[
+            1,
+          ],"documentation":"","externalName":"jsons_decode_safe","help":"jsons_decode_safe(jsonstr)","hidden":false,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"jsons_decrypt_safe","argCount":-1,"args":[],"documentation":"","externalName":"jsons_decrypt_safe","help":"jsons_decrypt_safe(jsonencstr, [deckey], [decfunc])","hidden":false,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"jsons_load_safe","argCount":0,"args":[
+            1,
+          ],"documentation":"","externalName":"jsons_load_safe","help":"jsons_load_safe(fname)","hidden":false,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"jsons_load_encrypted_safe","argCount":-1,"args":[],"documentation":"","externalName":"jsons_load_encrypted_safe","help":"jsons_load_encrypted_safe(fname, [deckey], [decfunc])","hidden":false,"kind":2,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"__jsons_encode_formatted__","argCount":0,"args":[
+            2,
+            1,
+            2,
+            2,
             1,
             1,
-          ],"resourceVersion":"1.0","name":"__jsons_encode_formatted__","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"jsons_encode_formatted","kind":2,"help":"jsons_encode_formatted(val, [indent], [maxDepth], [colon], [comma])","hidden":false,"returnType":1,"argCount":-1,"args":[],"resourceVersion":"1.0","name":"jsons_encode_formatted","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"jsons_save_formatted","kind":2,"help":"jsons_save_formatted(fname, val, [indent], [maxDepth], [colon], [comma])","hidden":false,"returnType":1,"argCount":-1,"args":[],"resourceVersion":"1.0","name":"jsons_save_formatted","tags":[],"resourceType":"GMExtensionFunction",},
-      ],"constants":[],"ProxyFiles":[],"copyToTargets":-1,"order":[
+          ],"documentation":"","externalName":"__jsons_encode_formatted__","help":"__jsons_encode_formatted__(val, indent, currentDepth, maxDepth, colon, comma)","hidden":false,"kind":2,"returnType":1,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"jsons_encode_formatted","argCount":-1,"args":[],"documentation":"","externalName":"jsons_encode_formatted","help":"jsons_encode_formatted(val, [indent], [maxDepth], [colon], [comma])","hidden":false,"kind":2,"returnType":1,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"jsons_save_formatted","argCount":-1,"args":[],"documentation":"","externalName":"jsons_save_formatted","help":"jsons_save_formatted(fname, val, [indent], [maxDepth], [colon], [comma])","hidden":false,"kind":2,"returnType":1,},
+      ],"init":"","kind":2,"order":[
         {"name":"__jsons_decode_array__","path":"extensions/JsonStruct/JsonStruct.yy",},
         {"name":"__jsons_decode_bool__","path":"extensions/JsonStruct/JsonStruct.yy",},
         {"name":"__jsons_decode_real__","path":"extensions/JsonStruct/JsonStruct.yy",},
@@ -140,36 +142,46 @@
         {"name":"jsons_save","path":"extensions/JsonStruct/JsonStruct.yy",},
         {"name":"jsons_save_encrypted","path":"extensions/JsonStruct/JsonStruct.yy",},
         {"name":"jsons_save_formatted","path":"extensions/JsonStruct/JsonStruct.yy",},
-      ],"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMExtensionFile",},
+      ],"origname":"","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
   ],
-  "classname": "",
-  "tvosclassname": null,
-  "tvosdelegatename": null,
-  "iosdelegatename": "",
-  "androidclassname": "",
-  "sourcedir": "",
-  "androidsourcedir": "",
-  "macsourcedir": null,
-  "maccompilerflags": "",
-  "tvosmaccompilerflags": "",
-  "maclinkerflags": "",
-  "tvosmaclinkerflags": "",
-  "androidcodeinjection": "",
-  "ioscodeinjection": "",
-  "tvoscodeinjection": "",
-  "iosSystemFrameworkEntries": [],
-  "tvosSystemFrameworkEntries": [],
-  "iosThirdPartyFrameworkEntries": [],
-  "tvosThirdPartyFrameworkEntries": [],
+  "gradleinject": "",
+  "hasConvertedCodeInjection": true,
+  "helpfile": "",
+  "HTML5CodeInjection": "",
+  "html5Props": false,
   "IncludedResources": [],
-  "androidPermissions": [],
-  "copyToTargets": -1,
+  "installdir": "",
+  "iosCocoaPodDependencies": "",
+  "iosCocoaPods": "",
+  "ioscodeinjection": "",
+  "iosdelegatename": "",
+  "iosplistinject": "",
+  "iosProps": false,
+  "iosSystemFrameworkEntries": [],
+  "iosThirdPartyFrameworkEntries": [],
+  "license": "",
+  "maccompilerflags": "",
+  "maclinkerflags": "",
+  "macsourcedir": null,
+  "options": [],
+  "optionsFile": "options.json",
+  "packageId": "",
   "parent": {
     "name": "JsonStruct",
     "path": "folders/Libraries/JsonStruct.yy",
   },
-  "resourceVersion": "1.2",
-  "name": "JsonStruct",
-  "tags": [],
-  "resourceType": "GMExtension",
+  "productId": "",
+  "sourcedir": "",
+  "supportedTargets": -1,
+  "tvosclassname": null,
+  "tvosCocoaPodDependencies": "",
+  "tvosCocoaPods": "",
+  "tvoscodeinjection": "",
+  "tvosdelegatename": null,
+  "tvosmaccompilerflags": "",
+  "tvosmaclinkerflags": "",
+  "tvosplistinject": "",
+  "tvosProps": false,
+  "tvosSystemFrameworkEntries": [],
+  "tvosThirdPartyFrameworkEntries": [],
 }
