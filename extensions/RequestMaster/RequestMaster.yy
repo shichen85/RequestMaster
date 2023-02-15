@@ -21,6 +21,7 @@
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","constants":[
         {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"xhr_subject_noone","hidden":false,"value":"noone",},
         {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"xhr_subject_self","hidden":false,"value":"-1",},
+        {"resourceType":"GMExtensionConstant","resourceVersion":"1.0","name":"xhr_subject_daemon","hidden":false,"value":"-2",},
       ],"copyToTargets":-1,"filename":"RequestMaster.gml","final":"","functions":[
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"xhr_delete","argCount":0,"args":[
             1,

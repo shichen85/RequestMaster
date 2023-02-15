@@ -143,10 +143,15 @@
 			} catch (ex) {
 				daemon.subject = noone;
 			}
-		default:
-			daemon.doneCallback = method(daemon.subject, daemon.doneCallback);
-			daemon.failCallback = method(daemon.subject, daemon.failCallback);
-			daemon.progressCallback = method(daemon.subject, daemon.progressCallback);
+			break;
+		case xhr_subject_daemon:
+		  daemon.subject = daemon;
+			break;
+	}
+	if (daemon.subject != noone){
+		daemon.doneCallback = method(daemon.subject, daemon.doneCallback);
+		daemon.failCallback = method(daemon.subject, daemon.failCallback);
+		daemon.progressCallback = method(daemon.subject, daemon.progressCallback);		
 	}
 
 	// Extract body
@@ -185,8 +190,8 @@
 		bodyHelper.cleanBody(bodyContent);
 	}
 
-	// Return the request ID
-	return reqId;
+	// Return the daemon's instance ID
+	return daemon;
 }
 
 #define xhr_trace

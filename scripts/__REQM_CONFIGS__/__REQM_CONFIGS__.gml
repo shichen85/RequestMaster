@@ -4,6 +4,7 @@
 Set the default callback subject here. Valid values include:
 - xhr_subject_noone: Run callbacks anonymously.
 - xhr_subject_self: Run callbacks as the instance that started the request.
+- xhr_subject_daemon: Run callbacks as the daemon instance. 
 - Any instance ID.
 - Any expression returning an instance ID.
 */
